@@ -32,8 +32,8 @@ git clone https://github.com/koo039/Candy_Crush_Game.git
 
 ## 🧭 Overview
 
-### Class Diagram
-<img src="https://github.com/koo039/Candy_Crush_Game/blob/main/CandyCrushGame/images/screen.PNG" width="600">
+### Game Diagram
+<img src="https://github.com/koo039/Candy_Crush_Game/blob/main/doc/diagram.png" width="600">
 
 
 ## problem specification
