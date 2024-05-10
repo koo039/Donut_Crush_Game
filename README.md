@@ -4,7 +4,7 @@
 [![Awesome Python](https://img.shields.io/badge/Python-awesomepython-blue.svg?style=flat&logo=python&logoColor=white)](https://github.com/vinta/awesome-python)
 #
 
-<img src="https://github.com/koo039/university_project/blob/main/doc/screen.PNG" width="600">
+<img src="https://github.com/koo039/Candy_Crush_Game/blob/main/doc/screen.PNG" width="600">
 
 
 
@@ -33,7 +33,7 @@ git clone https://github.com/koo039/university_project.git
 ## 🧭 Overview
 
 ### Class Diagram
-<img src="https://github.com/koo039/university_project/blob/main/CandyCrushGame/images/screen.PNG" width="600">
+<img src="https://github.com/koo039/Candy_Crush_Game/blob/main/CandyCrushGame/images/screen.PNG" width="600">
 
 
 ## problem specification
@@ -47,7 +47,7 @@ git clone https://github.com/koo039/university_project.git
 >TC: Array of pointers representing the list headers of the column elements.
 >Refer to Figure 1-1 for a visual representation of this structure.
 # 
-<img src="https://github.com/koo039/university_project/blob/main/doc/problem_photo.png" width="600">
+<img src="https://github.com/koo039/Candy_Crush_Game/blob/main/doc/problem_photo.png" width="600">
 
 
 >we've developed our Candy Crush game to address this issue, aiming to enhance our skills and gain valuable experience in game development ,
