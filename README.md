@@ -1,4 +1,4 @@
-# <img src="CandyCrushGame/icon/icon.png" width="38"/> Candy Crush Game
+# <img src="src/icon/icon.png" width="38"/> Candy Crush Game
 [![Python](https://img.shields.io/badge/Python-3.12.3-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![Pygame](https://img.shields.io/badge/Pygame-1.9.6-836DAC.svg)](https://www.pygame.org/news)
 [![Awesome Python](https://img.shields.io/badge/Python-awesomepython-blue.svg?style=flat&logo=python&logoColor=white)](https://github.com/vinta/awesome-python)
@@ -14,7 +14,7 @@
 ⭐ Build to sovle problem  
 ## 💿 Clone
 Run terminal or git bash and write : 
-git clone https://github.com/koo039/university_project.git
+git clone https://github.com/koo039/Candy_Crush_Game.git
 
 ## 💿 Downloads
 
