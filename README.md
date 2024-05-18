@@ -22,6 +22,8 @@ git clone https://github.com/koo039/Candy_Crush_Game.git
 > 💡 Native x64 one-click exe - Noo required.
 ### 📦 [Candy-Crush-src_code](https://github.com/koo039/Candy_Crush_Game/releases/download/untagged-d5eba91e85623583c2ce/game_src_code.rar) `19.2 MB` [Game_Src]
 > 💡 python and pygame required.
+### 📦 [Candy-Crush-web_browser]() `15.5 MB` [Web]
+> 💡 You need to run it on your localhost. We explain how to do it below.
 
 ## ⌨ Controls
 
