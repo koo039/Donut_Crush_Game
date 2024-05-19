@@ -34,8 +34,11 @@ git clone https://github.com/koo039/Candy_Crush_Game.git
   cd CandyCrush_Web_brower/web    # Navigate to this directory 
   python -m http.server           # Start your local server 
   ```
-
-
+  And don't close your terminal. Go to your browser and type: 
+  
+    ```bash
+    http://localhost:8000/
+    ```
 
 ## ⌨ Controls
 
