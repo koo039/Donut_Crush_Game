@@ -26,8 +26,13 @@ git clone https://github.com/koo039/Candy_Crush_Game.git
 > 💡 You need to run it on your localhost. We explain how to do it below.
 
 ##  Compiling for the Web
-  Download the web folder from above.
-  Open the command prompt or terminal you use, and type the following command:
+  Download the web folder from above. 
+  Open the command prompt or terminal you use, and type the following command: 
+  
+  ```bash
+  cd CandyCrush_Web_brower/web    # Navigate to this directory 
+  python -m http.server           # Start your local server 
+  ```
 
 
 
