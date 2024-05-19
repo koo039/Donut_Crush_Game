@@ -36,9 +36,9 @@ git clone https://github.com/koo039/Candy_Crush_Game.git
   ```
   And don't close your terminal. Go to your browser and type: 
   
-    ```bash
-    http://localhost:8000/
-    ```
+  ```bash
+  http://localhost:8000/
+  ```
 
 ## ⌨ Controls
 
