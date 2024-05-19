@@ -25,6 +25,12 @@ git clone https://github.com/koo039/Candy_Crush_Game.git
 ### 📦 [Candy-Crush-web_browser](https://github.com/koo039/Candy_Crush_Game/releases/download/untagged-390b6c3c2a8e2a9123b6/CandyCrush_Web_brower.rar) `15.4 MB` [Web]
 > 💡 You need to run it on your localhost. We explain how to do it below.
 
+##  Compiling for the Web
+  Download the web folder from above.
+  Open the command prompt or terminal you use, and type the following command:
+
+
+
 ## ⌨ Controls
 
 * <kbd>ESC</kbd> Exit the game.
