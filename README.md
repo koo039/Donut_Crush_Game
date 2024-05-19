@@ -27,7 +27,8 @@ git clone https://github.com/koo039/Candy_Crush_Game.git
 
 ##  Compiling for the Web
   Download the web folder from above. 
-  Open the command prompt or terminal you use, and type the following command: 
+  
+  Open the command prompt or terminal you use, and type the following command:  
   
   ```bash
   cd CandyCrush_Web_brower/web    # Navigate to this directory 
