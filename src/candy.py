@@ -6,7 +6,7 @@ from candyphotos import CandyPhotos
 
 class Candy:
     def __init__(self):
-        self.id = random.randint(0, 5)
+        self.id = random.randint(0, 9)
         self.cell_size = 50
         self.row_offset = 0
         self.col_offset = 0

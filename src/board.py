@@ -33,7 +33,7 @@ class Board:
             print()
         print(" #  #  #  #  #  #  #  #  #  #  #  # ")
 
-    def insert_new(self, i, j, data):
+    def insert_new_node(self, i, j, data):
         SparseMatrix.insert_node(self.row_tab, self.col_tab, i, j, data)
 
     def is_empty(self, row, col):

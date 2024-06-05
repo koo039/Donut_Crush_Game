@@ -11,8 +11,10 @@ class Game:
         self.game_over = False
         self.score = 0
         self.sound = True
-        self.best_score = self.best_socre_fonction()
+        self.best_score = self.get_best_socre()
         self.clear_sound = pygame.mixer.Sound("sound/Sounds_clear.ogg")
+        self.game_over_sound = pygame.mixer.Sound("sound/game-over-39-199830.mp3")
+        self.level = self.get_level()
 
     def update_score(self, lines_cleared, move_down_points):
         if lines_cleared >= 1:
@@ -49,7 +51,7 @@ class Game:
 
     def lock_block(self):
         position = self.candy.get_cell_position()
-        self.board.insert_new(position.row, position.col, self.candy.id)
+        self.board.insert_new_node(position.row, position.col, self.candy.id)
         self.candy = self.next_candy
         self.next_candy = Candy()
         row_cleared = self.board.clear_three_candy_row()
@@ -60,8 +62,9 @@ class Game:
             self.update_score(row_cleared or col_cleared, 0)
         if self.block_fits() == 0:
             self.game_over = True
+            self.game_over_sound.play()
 
-    def best_socre_fonction(self):
+    def get_best_socre(self):
         try:
             with open("score.txt", "r") as rfp:
                 best_score = int(rfp.read())
@@ -71,11 +74,24 @@ class Game:
                 best_score = 0
         return best_score
 
+    def get_level(self):
+        try:
+            with open("level.txt", "r") as rfp:
+                level = int(rfp.read())
+        except FileNotFoundError:
+            with open("level.txt", "w") as wfp:
+                wfp.write("1")
+                level = 1
+        return level
+
     def block_fits(self):
         tile = self.candy.get_cell_position()
         if self.board.is_empty(tile.row, tile.col) == 0:
             return False
         return True
+
+    def get_speed_for_each_level(self):
+        return 250 - self.level * 50
 
     def draw(self, screen):
         self.board.draw(screen)
