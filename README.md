@@ -18,14 +18,18 @@ git clone https://github.com/koo039/Candy_Crush_Game.git
 
 ## 💿 Downloads
 
-### 📦 [Candy-Crush-Gamee_win.zip](https://github.com/koo039/Candy_Crush_Game/releases/download/downloads/CandyCrush-win_zip.rar) `16 MB` [Windows]
+### 📦 [Candy-Crush-Gamee_win.zip](https://github.com/koo039/Candy_Crush_Game/releases/download/downloads/CandyCrush-win_zip.rar) `31 MB` [Windows]
 > 💡 Native x64 one-click exe - Noo required.
-### 📦 [Candy-Crush-src_code](https://github.com/koo039/Candy_Crush_Game/releases/download/downloads/game_src_code.rar) `19.2 MB` [Game_Src]
+### 📦 [Candy-Crush-src_code](https://github.com/koo039/Candy_Crush_Game/releases/download/downloads/game_src_code.rar) `4.64 MB` [Game_Src]
 > 💡 python and pygame required.
 ### 📦 [Candy-Crush-web_browser](https://github.com/koo039/Candy_Crush_Game/releases/download/downloads/CandyCrush_Web_brower.rar) `15.4 MB` [Web]
 > 💡 You need to run it on your localhost. We explain how to do it below.
 
 ##  Compiling for the Web
+  We use  here web assembly( pygpag ) Python.
+
+  you just follow below if you're not intresting .
+
   Download the web folder from above. 
   
   Open the command prompt or terminal you use, and type the following command:  
