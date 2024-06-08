@@ -25,7 +25,7 @@ git clone https://github.com/koo039/Donut_Crush_Game.git
 ### 📦 [Donut-Crush-web_browser](https://github.com/koo039/Donut_Crush_Game/releases/download/downloads/CandyCrush_Web_brower.rar) `4.4 MB` [Web]
 > 💡 You need to run it on your localhost. We explain how to do it below.
 ### 📦 [Web_Site_online](https://h-day.itch.io/donuts-crush) `4.4 MB` [Web]
-> 💡 You can play our game online.
+> 💡 You can play it online and i don't update it last verstion yet.
 ##  Compiling for the Web
   We use  here web assembly( pygpag ) Python.
 
