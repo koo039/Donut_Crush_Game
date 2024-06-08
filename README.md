@@ -4,7 +4,7 @@
 [![Awesome Python](https://img.shields.io/badge/Python-awesomepython-blue.svg?style=flat&logo=python&logoColor=white)](https://github.com/vinta/awesome-python)
 #
 
-<img src="https://github.com/koo039/Candy_Crush_Game/blob/main/doc/screen.PNG" width="600">
+<img src="https://github.com/koo039/Donut_Crush_Game/blob/main/doc/screen.PNG" width="600">
 
 
 
@@ -14,17 +14,18 @@
 ⭐ Build to sovle problem  
 ## 💿 Clone
 Run terminal or git bash and write : 
-git clone https://github.com/koo039/Candy_Crush_Game.git
+git clone https://github.com/koo039/Donut_Crush_Game.git
 
 ## 💿 Downloads
 
-### 📦 [Candy-Crush-Gamee_win.zip](https://github.com/koo039/Candy_Crush_Game/releases/download/downloads/CandyCrush-win_zip.rar) `31 MB` [Windows]
+### 📦 [Donut-Crush-Gamee_win.zip](https://github.com/koo039/Donut_Crush_Game/releases/download/downloads/CandyCrush-win_zip.rar) `31 MB` [Windows]
 > 💡 Native x64 one-click exe - Noo required.
-### 📦 [Candy-Crush-src_code](https://github.com/koo039/Candy_Crush_Game/releases/download/downloads/game_src_code.rar) `4.64 MB` [Game_Src]
+### 📦 [Donut-Crush-src_code](https://github.com/koo039/Donut_Crush_Game/releases/download/downloads/game_src_code.rar) `4.64 MB` [Game_Src]
 > 💡 python and pygame required.
-### 📦 [Candy-Crush-web_browser](https://github.com/koo039/Candy_Crush_Game/releases/download/downloads/CandyCrush_Web_brower.rar) `15.4 MB` [Web]
+### 📦 [Donut-Crush-web_browser](https://github.com/koo039/Donut_Crush_Game/releases/download/downloads/CandyCrush_Web_brower.rar) `4.4 MB` [Web]
 > 💡 You need to run it on your localhost. We explain how to do it below.
-
+### 📦 [Web_Site_online](https://h-day.itch.io/donuts-crush) `4.4 MB` [Web]
+> 💡 You can play our game online.
 ##  Compiling for the Web
   We use  here web assembly( pygpag ) Python.
 
@@ -54,7 +55,7 @@ git clone https://github.com/koo039/Candy_Crush_Game.git
 ## 🧭 Overview
 
 ### Game Diagram
-<img src="https://github.com/koo039/Candy_Crush_Game/blob/main/doc/diagram.png" width="600">
+<img src="https://github.com/koo039/Donut_Crush_Game/blob/main/doc/diagram.png" width="600">
 
 
 ## problem specification
@@ -68,9 +69,9 @@ git clone https://github.com/koo039/Candy_Crush_Game.git
 >TC: Array of pointers representing the list headers of the column elements.
 >Refer to Figure 1-1 for a visual representation of this structure.
 # 
-<img src="https://github.com/koo039/Candy_Crush_Game/blob/main/doc/problem_photo.png" width="600">
+<img src="https://github.com/koo039/Donut_Crush_Game/blob/main/doc/problem_photo.png" width="600">
 
 
->we've developed our Candy Crush game to address this issue, aiming to enhance our skills and gain valuable experience in game development ,
+>we've developed our Donut Crush game to address this issue, aiming to enhance our skills and gain valuable experience in game development ,
 >In the "Sparse matrix" folder above ,written in the C programming language, you can find the implementation of this solution. It aims to optimize memory usage in large-scale projects by utilizing a >sparse matrix data structure. This structure represents only the non-zero elements along with their coordinates, effectively reducing memory consumption. If you're >interested in understanding how the problem works and how the solution is implemented, you'll find detailed explanations and code in the 'dsa' folder.
 
